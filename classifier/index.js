@@ -3,6 +3,24 @@ const webcamElement = document.getElementById('webcam');
 
 const classifier = knnClassifier.create();
 
+function sound1(){
+    var audio = document.createElement("audio");
+    audio.src = "http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3";
+    audio.addEventListener("ended", function () {
+        document.removeChild(this);
+    }, false);
+    audio.play();   
+}
+
+function sound2(){
+    var audio = document.createElement("audio");
+    audio.src = "http://www.hochmuth.com/mp3/Tchaikovsky_Rococo_Var_orch.mp3";
+    audio.addEventListener("ended", function () {
+        document.removeChild(this);
+    }, false);
+    audio.play();   
+}
+
 async function app() {
 	console.log('Loading mobilenet..');
 
@@ -46,7 +64,10 @@ async function app() {
 				prediction: ${classes[result.label]}\n
 				probability: ${result.confidences[result.label]}
 			`;
-
+		
+			if (result.label === 'A') {
+    				sound1();
+			}
 		img.dispose();
 		}
 		await tf.nextFrame();
