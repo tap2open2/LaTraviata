@@ -4,7 +4,7 @@ A virtual tour guide has been developed. It is intended to replace the audio gui
 
 # Technologies used:
 
-Django, Tensorflow.js , MobileNet, Web stack(HTML5/CSS3/JS)
+Django, Tensorflow.js , MobileNet, Web stack(HTML5/CSS3/JS), SQLite
 
 # Demos 
 ## On the edge image classifier for admin link:
