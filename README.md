@@ -9,7 +9,11 @@ Django, Tensorflow.js , MobileNet, Web stack(HTML5/CSS3/JS), SQLite
 # Demos 
 ## On the edge image classifier for admin link:
 
+(https://hackhippoc.github.io/classifier/)
+
 ## User experience tour guide link:
+
+(https://hackhippoc.github.io/tourguide/)
 
 # How to install: 
 ## Backend
@@ -18,7 +22,7 @@ Requirements: Python 3.7, Pipenv (https://pipenv-fork.readthedocs.io/en/latest/i
 ```
 git clone https://github.com/tap2open2/LaTraviata.git
 cd LaTraviata && pipenv install && pipenv shell
-python manage.py
+python manage.py runserver
 ```
 
 ## Front-end
