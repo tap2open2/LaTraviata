@@ -22,7 +22,7 @@ Requirements: Python 3.7, Pipenv (https://pipenv-fork.readthedocs.io/en/latest/i
 ```
 git clone https://github.com/tap2open2/LaTraviata.git
 cd LaTraviata && pipenv install && pipenv shell
-python manage.py
+python manage.py runserver
 ```
 
 ## Front-end
