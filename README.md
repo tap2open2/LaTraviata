@@ -1,6 +1,6 @@
 # Short Description: 
 
-A virtual tour guide has been developed. It is deployed 
+A virtual tour guide has been developed. It is intended to replace the audio guide devices found at some museums. 
 
 # Technologies used:
 
