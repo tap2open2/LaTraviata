@@ -2,7 +2,7 @@ from django.db import models
 
 class Stone(models.Model):
     title = models.CharField(max_length=200)
-    summary = models.CharField(max_length=2000)
+    summary = models.TextField(max_length=2000)
     robot_voice_summary = models.BooleanField(default=True)
     audio_summary = models.FileField(upload_to='audio/')
     def __str__(self):

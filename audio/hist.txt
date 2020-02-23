@@ -1,0 +1,1585 @@
+lscpu
+cd bootstrap/
+ls
+vim landing2.html 
+cd
+python3
+ls
+cat Pipfile
+exit
+ssh-keygen
+cat .ssh/id_rsa.pub 
+clear
+git clone ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDg01vjf7u8/04O60+sA1MzGJ1ei+8Y7/OkNI4o63rP8wmNaRZv/Ry6FSdmP64DMHUR1TPhWjPVREOG5j0vQHLbUQPXiP24zuUgc9xocDw0wC/206UEZowUKBBNTSAeHbbp/TzGW2RxKw1HM0Nf6AImOFrQQw9bEqy8JTDughNXTgl5ahde87Ri9BtPGvGABC4+N3fqxbLajFeRWdFuTS/cOO7WkEJt2j9MHr5WXK5WlTSzOVctVotTm2EZFMdNz+RfiBBoXAf3JB/h4eXQrVAZ6vtvY8qeI3TrkGgiOsys0DogBduNUmke/0jTsoM0cj6T8QG2g2+51c0UyIXbTfHV user@dev
+git clone git@github.com:rococroc/bootstrap.git
+sudo apt update
+sudo apt upgrade -y
+sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
+tar -xf Downloads/Python-3.7.6.tar.xz 
+cd Python-3.7.6/
+./configure --enable-optimizations 
+make -j 2
+sudo make altinstall
+python3.7
+cd
+ls
+git clone git@github.com:rococroc/morgana.git
+cd morgana/
+sudo pip install pipenv
+sudo pikkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrlnleap install pipenv
+pip
+sudo apt install pipenv
+sudo apt install pip
+sudo apt update
+sudo apt install python pip
+sudo apt install python-pip
+sudo pip install pipenv
+pipenv install
+sudo apt install libpq-dev
+pipenv install
+pipenv shell
+cat README.md 
+ls
+python manage.py runserver
+git status
+git add .
+git commit -m "add custom user model with email auth"
+git config --global user.email "mark@getmorgana.com"
+git config --global user.name "mark"
+git commit -m "add custom user model with email auth"
+vim config/settings.py 
+vim users/models.py 
+vim users/forms.py
+vim users/models.py 
+vim users/forms.py 
+vim users/models.py 
+vim users/forms.py 
+vim users/models.py 
+vim users/admin.py 
+git status
+git add .
+git commit -m "start test for email login"
+python manage.py makemigrations users
+vim users/models.py 
+python manage.py makemigrations users
+vim users/models.py 
+python manage.py makemigrations users
+vim users/models.py 
+python manage.py makemigrations users
+python manage.py migrate
+python manage.py createsuperuser
+vim users/models.py 
+python manage.py makemigrations users
+python manage.py migrate
+python manage.py createsuperuser
+vim users/models.py 
+python manage.py makemigrations users
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+vim users/models.py 
+python manage.py makemigrations users
+vim users/models.py 
+python manage.py makemigrations users
+exit
+django-admin startproject 1
+django-admin startproject a
+cd a/
+python manage.py startapp app
+sudo apt install sqlite3
+python manage.py startapp app
+pip install sqlite3
+python manage.py startapp app
+./configure --enable-loadable-sqlite-extensions && make && sudo make install
+exit
+ls
+cd a 
+python manage.py startapp app
+exit
+sudo apt install sqlite-devel
+sudo apt install libsqlite3-dev
+cd morgana/
+ls
+pipenv shell
+ls
+cd ..
+mkdir testauth
+cd testauth/
+cp ../morgana/Pipfile .
+ls
+pipenv install
+pipenv shell
+ls
+ls -a
+rm Pipfile.lock 
+pipenv install
+pipenv shell
+cd ..
+ls
+cd Python-3.7.6/
+ls
+cd ..
+ls
+cd Python-3.7.6/
+ls
+./configure --enable-loadable-sqlite-extensions && make && sudo make install
+cd
+ls
+cd testauth/
+ls
+pipenv shell
+cd a
+python manage.py startapp app
+ls
+vim a/settings.py 
+vim app/models.py 
+vim a/settings.py 
+vim app/models.py 
+vim app/admin.py 
+python manage.py makemigrations
+vim app/models.py 
+vim app/admin.py 
+python manage.py makemigrations
+vim app/models.py 
+python manage.py makemigrations
+python manage.py runse
+python manage.py createsuperuser
+python manage.py runserver
+ls
+vim app/models.py 
+python manage.py runserver
+vim app/models.py 
+ls
+django-admin startproject docs
+ls
+cd docs/
+python manage.py startapp app
+vim app/models.py 
+vim app/admin.py 
+ls
+pwd
+vim app/admin.py 
+vim docs/settings.py 
+vim app/admin.py 
+python manage.py makemigrations
+vim app/models.py 
+python manage.py makemigrations
+vim app/admin.py 
+python manage.py makemigrations
+vim app/admin.py 
+python manage.py makemigrations
+vim app/admin.py 
+python manage.py makemigrations
+vim app/admin.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+vim app/models.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+vim app/models.py 
+vim app/admin.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+vim app/models.py 
+python manage.py runserver
+vim app/models.py 
+vim app/admin.py 
+vim docs/settings.py 
+python makemigrations
+python manage.py makemigrations
+python manage.py migrate
+vim app/models.py 
+vim app/admin.py 
+vim docs/settings.py 
+python manage.py makemigrations
+python manage.py migrate
+cd ..
+ls
+cd ..
+cd testauth/
+ls
+django-admin startproject b
+ls
+cd b/
+python manage.py startapp app
+cp ../docs/docs/settings.py b/settings.py 
+vim b/settings.py 
+cp ../docs/app/admin.py app/admin.py 
+vim app/admin.py 
+cp ../docs/app/models.py app/models.py 
+vim app/models.py 
+pwd
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+ls
+cd ..
+ls
+django-admin starproject otp
+django-admin startproject otp
+cd otp/
+ls
+python manage.py startapp app
+cp ../b/app/models.py app/models.py 
+cp ../b/app/admin.py app/admin.py 
+cp ../docs/docs/settings.py otp/settings.py 
+vim otp/settings.py 
+vim ../docs/docs/settings.py 
+vim otp/
+vim otp/settings.py 
+vim app/models.py 
+vim ../docs/app/models.py 
+vim ../docs/app/admin.py 
+vim ../b/b/settings.py 
+vim app/models.py 
+vim app/admin.py 
+python manage.py makemigrations
+vim otp/settings.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+python manage.py changepassword test@testuser.com
+ls
+python manage.py runserver
+git status
+ls
+cat ../Pipfile
+ls
+cd ..
+ls
+cp -r otp/ otpbackup
+ls
+cd otp
+ls
+python manage.py runserver
+cd ..
+exit
+ls
+cd otp
+ls
+python manage.py runserver
+ls
+cd ..
+l
+ls
+exit
+django-admin
+exit
+ls
+cd testauth/
+pipenv shell
+ls
+git clone https://github.com/sibtc/django-auth-tutorial-example.git
+cd django-auth-tutorial-example/
+pipenv --three
+ls
+pip install -r requirements.txt 
+clear
+cd ..
+ls
+cd otp
+pipenv shell
+cd ..
+cat Pipfile
+pipenv shell
+python manage.py runserver
+ls
+cd users/
+ls
+cat models.py 
+ls
+cd ..
+exit
+cd otpbackup/
+python manage.py runserver
+exit
+ls
+cd otp
+cat app/models.py 
+cd otp
+python manage.py runserver
+pip install django-otp qrcode
+vim otp/settings.py 
+vim otp/urls.py 
+python manage.py makemigrations
+vim otp/settings.py 
+vim otp/urls.py 
+python manage.py makemigrations
+vim otp/urls.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+ls
+cd ..
+ls
+cp -r otpbackup/ otp2
+ls
+cd otp2/
+python manage.py runserver
+pip install django-two-factor-auth
+vim otp/settings.py 
+vim otp/urls.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py makemigrations
+pip install phonenumbers
+python manage.py makemigrations
+vim otp/urls.py 
+python manage.py makemigrations
+vim otp/urls.py 
+python manage.py makemigrations
+vim otp/urls.py 
+python manage.py makemigrations
+vim otp/urls.py 
+python manage.py makemigrations
+vim otp/urls.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+vim otp/urls.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+vim otp/urls.py 
+cd ..
+exit
+ls
+pip install 
+pip install -r requirements
+pip install -r requirements.txt 
+pip install django-two-factor-auth
+python manage.py makemigrations
+pip install phonenumbers
+python manage.py makemigrations
+ls
+vim twofactordjango/settings.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+ls
+exit
+python manage.py runserver
+CD
+cd
+cd 
+cd djangox/
+ls
+vim djangox_project/settings.py 
+vim djangox_project/urls.py 
+python manage.py makemigrations
+cd 
+exit
+pip install djangofloor
+djangofloor-createproject 
+ls
+cd myproject/
+ls
+myproject-ctl
+python manage.py migrate
+python manage.py runserver
+ls
+cd ..
+exit
+cat djangox_project/settings.py 
+vim djangox_project/urls.py 
+exit
+ls
+cd soccersite/
+ls
+pip install -r requirements.txt 
+python manage.py migrate
+ls
+python manage.py makemigrations
+l
+ls
+exit
+ls
+cd soccersite/
+ls
+pip install -r requirements.txt 
+python manage.py makemigrations
+python manage.py migrate
+ls
+rm db.sqlite3 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py migrate
+ls
+cd soccersite/
+ls
+cd ..
+ls
+cd lastever/
+ls
+vim models.py 
+python manage.py makemigrations
+cd ..
+python manage.py makemigrations
+vim lastever/models.py 
+cd 
+exit
+cd
+cd testauth/otp
+ls
+vim otp/settings.py 
+docker
+sudo docker
+cd ..
+cd
+ls
+cd djangox/
+ls
+pipenv install
+ls
+cd djangox_project/
+pipenv install
+ls
+cd ..
+l
+ls
+pipenv shell
+python manage.py makemigrations users
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+pip install django-allauth-2fa
+vim djangox_project/settings.py 
+vim djangox_project/urls.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+vim djangox_project/urls.py 
+python manage.py runserver
+vim djangox_project/urls.py 
+vim djangox_project/settings.py 
+ls
+cd morgana/
+ls
+pipenv shell
+cd
+cd testauth/
+pipenv shel
+pipenv shell
+ls
+rm Pipfile.lock 
+pipenv install
+pipenv shell
+ls
+cd ..
+ls
+git clone https://github.com/renjithsraj/twofactordjango.git
+cd twofactordjango/
+ls
+cat requirements.txt 
+pipenv --three
+pipenv shell
+cat Pipfile 
+vim Pipfile 
+ls
+pipenv install
+ls
+cat Pipfile 
+cd 
+cat testauth/p
+cat testauth/Pipfile
+cd twofactordjango/
+ls
+vim Pipfile 
+pipenv install
+pipenv shell
+ls
+cd
+mkdir testauth2
+cd testauth2/
+pipenv --three
+pipenv shell
+cd ..
+rm -rf testauth2/
+cd djangox/
+ls
+pipenv shell
+ls
+cd
+mkdir test2fa
+cd test2fa/
+ls
+pipenv --three
+git clone https://github.com/cloneofghosts/soccersite.git
+pipenv shell
+cd ..
+ls
+cd test2fa/
+ls
+cat p
+cat Pipfile 
+python3
+vim Pipfile 
+ls
+pipenv install
+python3.5
+pipenv --rm
+pipenv install
+cd soccersite/
+pipenv shell
+cd 
+cd djangox/
+ls
+pipenv shell
+python manage.py runserver
+ls
+vim users/middleware.py
+ls
+mv users/middleware.py djangox_project/
+vim djangox_project/settings.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+exit
+python manage.py runserver
+ls
+cd
+exit
+ls
+cat Dockerfile 
+ls
+cat requirements.txt 
+cat requirements-base.txt 
+ls
+cat guacozy_server/settings.py 
+ls
+cat src/index.js 
+ls
+cd src/
+ls
+cat index.
+cat index.css 
+python manage.py makemigrations
+pipenv install
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py rcreatesupersuser
+python manage.py createsuperuser
+python manage.py runserver
+exit
+cd ..
+ls
+cd hooks/
+ls
+cat build 
+cd 
+cd guacozy/guacozy_server/
+ls
+pipenv install
+ls
+cat Pipfile 
+rm Pipfile 
+ls
+pipenv --thre
+pipenv sheel
+pipenv shell
+docker
+cd guacozy/
+ls
+cd frontend/
+ls
+cat Dockerfile 
+docker build .
+docker 
+docker list
+docker stats
+docker ps
+ls
+docker images -a
+docker run f9bead03b2f3 --publish-all
+docker run f9bead03b2f3 -P
+docker run -it f9bead03b2f3 -P
+docker run -itP f9bead03b2f3 
+docker ps
+docker run -it f9bead03b2f3 
+cat Dockerfile 
+ls
+cd ..
+docker run -it f9bead03b2f3 
+cd frontend/
+ls
+vim Dockerfile 
+ls
+cp Dockerfile Dockerfile.backup
+vim Dockerfile
+docker build .
+docker -a
+docker images -a
+docker run -itP affe0897ea93 
+ls
+cat public/
+ls
+cd public/
+l
+ls
+cd ..
+cat Dockerfile
+cd public/cd ..
+l
+ls
+cat Dockerfile
+cd ..
+ls
+cat Dockerfile 
+cd frontend/
+ls
+cat Dockerfile.backup 
+docker image -a
+docker images -a
+docker run -itP 03eb16ee1082
+docker run -itP 74d3b3e98530
+docker run -itP affe0897ea93
+docker run -itP 4eed12ce46ca
+docker run -itP f9bead03b2f3
+docker run -itP f9bead03b2f3 /bin/bash
+ls
+git status
+docker run -d -p 3333:3000 f9bead03b2f3
+docker ps
+docker ps -a
+ls
+docker images -a
+cat Dockerfile.backup 
+cp Dockerfile.backup Dockerfile
+ls
+vim Dockerfile
+docker build .
+docker run -d -p 3333:3000 8a8893262b39
+docker ps 
+docker attach 8a8893262b39
+docker attach fb55c66449ec45964519b3663ea3c4227a1cab8129dab38e25c045cfad3e1308
+docker start fb55c66449ec45964519b3663ea3c4227a1cab8129dab38e25c045cfad3e1308
+docker ps
+docker attach fb55c66449ec45964519b3663ea3c4227a1cab8129dab38e25c045cfad3e1308
+docker start f8a8893262b39
+docker ps -a
+docker start fb55c66449ec
+docker attach fb55c66449ec
+docker ps
+docker ps -a 
+ls
+cat Dockerfile
+vim Dockerfile
+docker build .
+docker ps -a
+docker run -d -p 3333:3000 262712fc8cdf
+docker ps 
+docker ps -a
+docker start 88def824bca2
+docker attach 88def824bca2
+docker ps -a
+docker ps 
+ls
+cat Dockerfile
+mv Dockerfile.backup Dockerfile
+ls
+cat Dockerfile 
+ls
+vim Dockerfile 
+docker build .
+docker run -itP 7807833a370d
+vim Dockerfile 
+docker build .
+vim Dockerfile 
+docker build .
+vim Dockerfile 
+docker build .
+docker run -itP 76ac6837cafc
+ls
+vim Dockerfile 
+git status
+cp Dockerfile ../../Dockerfile
+ls
+cd 
+ls
+cat Dockerfile 
+vim Dockerfile 
+rm Dockerfile 
+ls
+cd guacozy/
+ls
+cd frontend/
+cp Dockerfile Dockerfile.backup
+ls
+vim Dockerfile
+docker build .
+docker run -itP 8b181d645213
+docker ps -a
+docker ps
+ls
+cat package.json 
+cat package-lock.json 
+cat package.json 
+sudo apt-get install curl software-properties-common
+curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -
+sudo apt install -y nodejs
+npm install
+npm run start
+vim src/index.js 
+npm run start
+vim src/index.js 
+npm run start
+npm run build
+cd build
+ls
+cd ..
+vim build/static/js/2.8955bb8a.chunk.js
+cd djangox/
+pipenv shell
+ls
+cd ..
+ls
+cd twofactordjango/
+ls
+pipenv shell
+cd
+git clone https://github.com/paidem/guacozy.git
+ls
+cd guacozy/
+ls
+cd frontend/
+ls
+cd public/
+ls
+cat ../README.md 
+cat ../_internal.md 
+ls
+cd ../
+ls
+cat package
+cat package.json 
+ls
+cat Dockerfile 
+uname -a
+cat /etc/apt/sources.list
+sudo apt update
+sudo apt upgrade
+sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
+sudo apt update
+apt-cache policy docker-ce
+sudo apt install docker-ce
+sudo usermod -aG docker ${USER}
+su - ${USER}
+cd guacozy/
+ls
+cd guacozy_server/
+pipenv shell
+python manage.py runserver
+cd guacozy/frontend/
+ls-
+ls
+npm run start
+cd
+docker run -it --rm -p 8080:80 -p 8443:443 guacozy/guacozy-server
+docker pull guacozy/guacozy-server
+ping 8.8.8.8
+sudo docker pull guacozy/guacozy-server
+docker pull guacozy/guacozy-server
+docker run -it --rm -p 8080:80 -p 8443:443 guacozy/guacozy-server
+docker ps
+docker attach 15452adbab88
+docker attach guacozy/guacozy-server
+docker attach 15452adbab88
+docker run --name guacdlocal --restart always -d -p 4822:4822 linuxserver/guacd
+docker ps
+docker attach 54e68a203145
+docker run --name guacdlocal --restart always -d -p 4822:4822 linuxserver/guacd
+docker ps
+docker run --name guacdlocal --restart always -d -p 4822:4822 linuxserver/guacd
+docker start guacdlocal
+docker ps
+docker inspect 54e68a203145
+ping 172.17.0.3
+ping guacd
+ssh 127.0.0.1
+docker run -d --hostname lubuntu --name lubuntu --restart always -p 5901:5901 -e TZ=Asia/Jakarta vncserver/lubuntu
+docker ps
+docker inspect 65bab0526ee8
+docker ps
+docker inspect 65bab0526ee8
+docker ps
+docker inspect 40adf3a1ce25
+docker inspect 65bab0526ee8
+docker inspect 40adf3a1ce25
+python manage.py createsuperuser
+cd
+cd safequbes/frontend/
+cd src/
+vim index.js 
+vim index.css 
+vim Components/Sidebar/ConnectionSidebar/ConnectionSidebar.css 
+vim index.css 
+git status
+cd ..
+git status
+git add frontend/src/Components/Sidebar/ConnectionSidebar/ConnectionSidebar.css 
+vim frontend/src/Components/Sidebar/ConnectionSidebar/ConnectionSidebar.css 
+git add frontend/src/index.css 
+git add frontend/src/index.js 
+git status
+git commit -m "mil theme"
+git push
+ls
+cd frontend/public/
+ls
+cp favicon.ico mil.svg
+mv ~/favicon.ico favicon.ico 
+mv ~/android-chrome-512x512.png logo512.png 
+mv ~/android-chrome-192x192.png logo192.png 
+cd ..
+vim src/Components/Welcome/Welcome.js 
+git status
+git add public/favicon.ico 
+git add public/logo192.png 
+docker ps
+docker inspect 54e68a203145
+docker ps
+docker inspect 65bab0526ee8
+exit
+vim src/index.css 
+cd ..
+cd guacozy_server/
+ls
+python manage.py createsuperuser
+pipenv shell
+git clone git@github.com:rococroc/safequbes.git
+cd safequbes/
+ls
+git status
+cd frontend/
+ls
+npm install
+npm run start
+cd ..
+ls
+cd guacozy_server/
+ls
+pipenv --three install
+pipenv shell
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+python manage.py collectstatic --no-input
+python manage.py initgroups
+python manage.py initguacd
+python manage.py runserver
+cd frontend/
+npm i
+cd
+ls
+cd .
+cd ..
+cd frontend/
+npm start
+ls
+npm build
+npm run build
+ls
+cd build/
+ls
+vim manifest.json 
+ls
+vim index.html 
+ls
+vim asset-manifest.json 
+cd ..
+ls
+git status
+ls
+vim package.json 
+ls
+cd build/
+ls
+vim asset-manifest.json 
+vim manifest.json 
+vim service-worker.js 
+ls
+vim static/js/main.c1d0ccc7.chunk.js
+cd ..
+ls
+vim src/Api/GuacozyApi.js 
+git status
+cd ..
+git status
+vim frontend/src/Api/GuacozyApi.js 
+cd
+Client Side Rendering • Slow initial page load • Page ﬂicker on navigation • Does not work without JS
+Server Side Rendering (SSR) https://github.com/Frojd/Hastur/ • Running as a node daemon • Integrates with Django-react-tem...
+So... Is there any cons?
+• JS bundle ﬁle size • Be careful when installing javascript libraries • Analyze your javascript bundle with webpack-bundl...
+• https://github.com/mikaelengstrom/django-react-polls-example • https://github.com/Frojd/django-react-templatetags/ • htt...
+¿Questions? 🤔
+SOCIAL MEDIA OFFICECONTACT Thanks Mikael Engström mikael.engstrom@frojd.se Twitter: @FrojdAgency Facebook: @FrojdAgency Li...
+Integrating react in django while staying sane and happy
+13 of 26
+Integrating react in django while staying sane and happy
+956 views
+Fröjd Interactive
+Follow
+Published on Jun 15, 2018
+This is our developer Mikales presentation for his talk during our Django meetup on June 14, 2018. Enjoy!
+The theme was "Django and JS frontend frameworks, making it work" and you can read more about the Django Stockholm Meetup Group at meetup.com/djangosthlm.
+Published in: Software
+no profile picture user
+Integrating react in django while staying sane and happy
+Client Side Rendering • Slow initial page load • Page ﬂicker on navigation • Does not work without JS
+Server Side Rendering (SSR) https://github.com/Frojd/Hastur/ • Running as a node daemon • Integrates with Django-react-tem...
+So... Is there any cons?
+• JS bundle ﬁle size • Be careful when installing javascript libraries • Analyze your javascript bundle with webpack-bundl...
+• https://github.com/mikaelengstrom/django-react-polls-example • https://github.com/Frojd/django-react-templatetags/ • htt...
+¿Questions? 🤔
+SOCIAL MEDIA OFFICECONTACT Thanks Mikael Engström mikael.engstrom@frojd.se Twitter: @FrojdAgency Facebook: @FrojdAgency Li...
+Integrating react in django while staying sane and happy
+13 of 26
+Integrating react in django while staying sane and happy
+956 views
+Fröjd Interactive
+Follow
+Published on Jun 15, 2018
+This is our developer Mikales presentation for his talk during our Django meetup on June 14, 2018. Enjoy!
+The theme was "Django and JS frontend frameworks, making it work" and you can read more about the Django Stockholm Meetup Group at meetup.com/djangosthlm.
+Published in: Software
+no profile picture user
+Integrating react in django while staying sane and happy
+git clone https://github.com/mikaelengstrom/django-react-polls-example.git
+cd django-react-polls-example/
+ls
+pipenv sync && pipenv shell
+vim Pipfile
+pipenv sync && pipenv shell
+cd django_project/
+python manage.py migrate
+python manage.py loaddata data/questions.json 
+python manage.py runserver
+cd Downloads/
+ls
+cd
+cd safequbes/
+git status
+git add frontend/public/logo512.png 
+git add frontend/src/Components/Welcome/Welcome.js 
+git status
+git commit -m "add EF logos"
+git push
+cd guacozy_server/
+pipenv shell
+docker ps
+docker inspect 54e68a203145
+docker ps
+docker stop 65bab0526ee8
+docker ps
+docker image ls
+docker delete 6c5de4d6a56a
+docker remove 6c5de4d6a56a
+docker --help
+docker rm 6c5de4d6a56a
+docker rmi 6c5de4d6a56a
+docker rm 65bab0526ee8
+docker image ls
+docker rmi 6c5de4d6a56a
+ls
+docker ps
+152cc66dfe07
+docker attach 152cc66dfe07
+ls
+python manage.py runserver
+npm run build
+cd
+ls
+docker l
+docker ls
+docker list
+docker image ls
+docker start guacdlocal
+docker ps
+docker inspect 54e68a203145
+docker ps
+docker inspect 65bab0526ee8
+sudo apt install chromium
+chromium
+docker image ls
+docker run -it --rm -p 8080:80 -p 8443:443 guacozy/guacozy-server
+chromium
+ls
+pwd
+ls
+cat requirements.txt 
+pip install -r requirements.txt 
+python manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+ls
+vim guacamole_django_client/settings.py 
+python manage.py runserver
+ls
+cd static/
+cd ..
+python manage.py collectstatic
+cp static/guacamole-common-js/all.min.js static/guacamole-common-js/all.min.js.old
+vim static/guacamole-common-js/all.min.js
+exit
+pipenv run
+exit
+git clone https://github.com/autrilla14/guacamole-django-client.git
+cd guacamole-django-client/
+ls
+pipenv sync && pipenv shell
+pipenv --three
+pipenv shell
+cd
+ls
+cd testauth/
+ls
+cd ..
+cd test2fa/
+ls
+cd soccersite/
+ls
+git status
+vim lastever/models.py 
+cd ..
+ls
+cd ..
+ls
+cd djangox
+ls
+git staus
+git status
+ls
+vim djangox_project/settings.py 
+cd
+cd morgana/
+ls
+git statu
+git status
+vim users/models.py 
+cat users/models.py 
+cd ..
+cd morgana/
+ls
+git status
+cd config/
+ls
+vim settings.py 
+git log
+ls
+cd ..
+ls
+cat users/models.py 
+cd ..
+rm -rf morgana/
+from django.contrib.auth.models import AbstractUser
+from django.db import models
+from django.utils.translation import gettext as _
+class CustomUser(AbstractUser):
+#    email = models.EmailField(_('email address'), unique=True)
+#    def __str__(self):
+#        return self.email
+git clone git@github.com:rococroc/morgana.git
+cd morgana/
+ls
+cat Pipfile 
+pipenv install
+pipenv shell 
+cd
+docker ps
+docker inspect 54e68a203145
+ls
+django-admin startproject config . 
+python manage.py runserver
+python manage.py startapp pages
+vim config/settings.py 
+ls
+mkdir templates
+vim templates/home.html
+vim config/urls.py 
+vim pages/urls.py
+vim pages/views.py 
+python manage.py runserver
+vim config/settings.py 
+python manage.py runserver
+vim pages/urls.py 
+ls
+vim pages/views.py 
+python manage.py runserver
+ls
+vim pages/views.py 
+vim pages/urls.py 
+python manage.py runserver
+vim pages/urls.py 
+python manage.py runserver
+vim pages/urls.py 
+python manage.py runserver
+git status
+rm db.sqlite3 
+git staus
+git status
+git add .
+git commit -m "add pages app and set up db etc"
+git status
+git push
+python manage.py startapp user
+ls
+git status
+cd ..
+exit
+python manage.py startapp users
+vim config/settings.py 
+git stats
+git status
+vim users/models.py 
+vim users/forms.py
+cd ..
+ls
+cd djangox/
+ls
+cat users/models.py 
+cd 
+cd morgana/
+ls
+vim users/models.py 
+vim users/forms.py 
+vim users/admin.py 
+python manage.py makemigrations
+vim users/admin.py 
+vim users/forms.py 
+vim users/admin.py 
+vim users/models.py 
+ls
+vim config/settings.py 
+python manage.py makemigrations
+vim users/forms.py 
+vim users/models.py 
+vim users/forms.py 
+python manage.py makemigrations
+vim users/forms.py 
+python manage.py makemigrations
+vim users/forms.py 
+python manage.py makemigrations
+vim users/forms.py 
+vim users/models.py 
+python manage.py makemigrations
+vim users/models.py 
+python manage.py makemigrations
+git status
+git add .
+git status
+git commit -m "get NameError on CustomUser"
+git push
+vim users/models.py 
+git commit -m "get NameError on CustomUser"
+python manage.py makemigrations
+vim users/models.py 
+python manage.py makemigrations
+vim users/models.py 
+python manage.py makemigrations
+vim users/models.py 
+python manage.py makemigrations
+vim users/admin.py 
+python manage.py makemigrations
+vim users/admin.py 
+python manage.py makemigrations
+vim users/admin.py 
+python manage.py makemigrations
+vim users/admin.py 
+python manage.py makemigrations
+cd ..
+cd morgana/
+exit
+vim users/admin.py 
+python manage.py makemigrations
+vim users/admin.py 
+python manage.py makemigrations
+python manage.py makemigrations users
+python manage.py migrate
+python manage.py migrate users
+pwd
+python manage.py createsuperuser
+exit
+vim presentation.txt
+cd
+ls
+cd morgana/
+ls
+cat config/settings.py 
+cd
+sudo su - postgres
+cat morgana/config/settings.py 
+cat templates/signup.html 
+cat templates/registration/login.html 
+vim config/settings.py 
+cd 
+cd .local/share/virtualenvs/cyberhack2020-WjxsY6BN/
+ls
+cd 
+mkdir cyberhack2020/templates/allauth_2fa
+python manage.py runserver
+python manage.py createsuperuser 
+python manage.py runserver
+cd ..
+exit
+cd
+chromium
+cd
+ls
+docker run -d --hostname lubuntu --name lubuntu --restart always -p 5901:5901 -e TZ=Asia/Jakarta vncserver/lubuntu
+docker ls
+docker image ls
+docker ps
+docker inspect 025cf1b14128
+vim safequbes/guacozy_server/templates/base/base.html 
+cd safequbes/guacozy_server/
+ls
+cd guacozy_server/
+ls
+cd ..
+ls
+cd staticfiles/
+ls
+cd ..
+vim guacozy_server/settings.py 
+ls
+python manage.py runserver
+exit
+cd
+ls
+vim presentation.txt 
+cat presentation.txt 
+vim presentation.txt 
+cat presentation.txt 
+vim presentation.txt 
+cat presentation.txt 
+cd
+cd guacozy/
+ls
+cd guacozy_server/
+pipenv shell
+cd 
+cd safequbes/
+ls
+cd guacozy_server/
+pipenv shell
+cd
+cd guacozy/
+ls
+cd guacozy_server/
+ls
+cd static/
+ls
+cd
+clear
+cd djangox/
+ls
+cat djangox_project/settings.py 
+cat djangox_project/middleware.py 
+cat djangox_project/settings.py 
+cat djangox_project/middleware.py 
+ls
+cat Pipfile
+cd
+cat .local/share/virtualenvs/cyberhack2020-WjxsY6BN/lib/python3.7/site-packages/allauth_2fa/utils.py 
+cd djangox/
+ls
+cat users/views.py 
+cat templates/account/signup.html 
+ls
+cd users/
+ls
+cat views.py 
+cd ..
+cat djangox_project/urls.py 
+cd templates/account
+ls
+cd
+cat .local/share/virtualenvs/cyberhack2020-WjxsY6BN/lib/python3.7/site-packages/
+cat .local/share/virtualenvs/cyberhack2020-WjxsY6BN/lib/python3.7/site-packages/django_allauth_2fa-0.8rc0-py3.7.egg 
+clear
+cp django-allauth-2fa/allauth_2fa/templates/allauth_2fa/* cyberhack2020/templates/allauth_2fa/
+cd guacozy/
+ls
+cd frontend/
+ls
+npm start
+cd
+cd safequbes/
+ls
+cd frontend/
+npm start
+ls
+cd src/
+ls
+vim index.js 
+vim Layout/defaultLayout.js 
+ls
+npm start
+django-admin startproject config . 
+ls
+git staus
+git status
+git add .
+git commit -m "first commit after django-admin, commits every 15 min from now on. GO, Go, go"
+git push
+django-admin startapp users
+django-admin startapp pages
+ls
+mkdir templates
+ls
+vim config/settings.py 
+ls
+mkdir static
+touch templates/home.html
+ls
+vim config/urls.py 
+vim pages/urls.py
+vim pages/views.py 
+vim users/models.py 
+vim users/forms.py
+vim users/admin.py 
+ls
+python manage.py makemigrations
+vim users/forms.py
+python manage.py makemigrations
+ls
+python manage.py makemigrations
+vim users/admin.py 
+vim users/forms.py 
+python manage.py makemigrations
+vim users/admin.py 
+python manage.py makemigrations
+cat users/forms.py 
+vim users/admin.py 
+cat users/forms.py 
+vim users/forms.py 
+python manage.py makemigrations
+vim pages/urls.py 
+python manage.py makemigrations
+python manage.py migrate 
+git commit -m "migrations done, ate gamoto kampsiiiiss"
+git add .
+git commit -m "+1"
+git push
+git staus
+git status
+ls
+python manage.py createsuperuser
+python manage.py runserver
+git staus
+git status
+vim config/urls.py 
+vim templates/home.html 
+cat pages/views.py 
+vim config/settings.py 
+vim templates/home.html 
+vim templates/registration/login.html
+mkdir templates/registration
+vim templates/registration/login.html
+vim templates/home.html 
+cat users/views.py 
+vim users/views.py 
+cp templates/home.html templates/signup.html
+vim templates/signup.html 
+vim users/urls.py
+vim users/views.py 
+python manage.py runserver
+vim users/urls.py 
+python manage.py runserver
+vim users/urls.py 
+vim users/views.py 
+python manage.py runserver
+git staus
+git status
+git add .
+git commt -m "basic auth"
+git commit -m "basic auth"
+git push
+python manage.py runserver
+vim templates/home.html 
+python manage.py runserver
+cat templates/home.html 
+python manage.py runserver
+cat users/views.py 
+vim templates/home.html 
+python manage.py runserver
+pip install django-allauth
+vim config/settings.py 
+vim config/urls.py 
+python manage.py makemigrations
+vim config/settings.py 
+python manage.py makemigrations
+vim config/settings.py 
+python manage.py makemigrations
+python manage.py migrate
+vim templates/home.html 
+python manage.py runserver
+vim templates/home.html 
+vim templates/signup.html 
+python manage.py runserver
+vim templates/signup.html 
+vim templates/home.html 
+python manage.py runserver
+vim config/settings.py 
+python manage.py runserver
+git status
+git add .
+git commit -m "begin to add 2fa"
+git push
+vim config/settings.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+vim config/settings.py 
+python manage.py runserver
+vim config/settings.py 
+vim config/middleware.py
+vim config/settings.py 
+vim config/middleware.py
+vim config/settings.py 
+vim config/middleware.py
+python manage.py makemigrations
+pip install django_otp
+pip install django-allauth-2fa
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+vim config/settings.py 
+python manage.py runserver
+vim config/middleware.py
+python manage.py runserver
+cd ..
+ls
+git clone https://github.com/percipient/django-allauth-2fa.git
+ls
+cd django-allauth-2fa/
+ls
+cat setup.py 
+vim setup.py 
+ls
+cd ..
+cd cyberhack2020/
+python manage.py runserver
+cd ..
+cd django-allauth-2fa/
+ls
+cd ..
+rm -rf django-allauth-2fa/
+git clone https://github.com/percipient/django-allauth-2fa.git
+pip remove django-allauth-2fa
+pip uninstall django-allauth-2fa
+cd django-allauth-2fa/
+python setup.py install
+cd ..
+cd cyberhack2020/
+python manage.py runserver
+vim config/middleware.py
+python manage.py runserver
+vim users/views.py 
+python manage.py runserver
+ls
+mkdir templates/account
+cp templates/signup.html templates/account/signup.html
+cp templates/registration/login.html templates/account/login.html
+rm -rf templates/registration/
+vim users/urls.py 
+vim users/views.py 
+vim config/urls.py 
+python manage.py runserver
+git status
+git add .
+git status
+git commit -m "2fa works"
+git push 
+ls
+git status
+python manage.py runserver
+exit
+cd
+git@github.com:rococroc/cyberhack2020.git
+git clone git@github.com:rococroc/cyberhack2020.git
+ls
+cd cyberhack2020/
+ls
+cp ../morgana/Pipfile . 
+l
+ls
+pipenv install
+pipenv shell
+vim config/settings.py 
+vim users/admin.py 
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+cat users/admin.py 
+vim users/admin.py 
+cd users/
+ls
+python manage.py makemigrations
+cd ..
+python manage.py makemigrations
+python manage.py runserver
+ls
+cd users/
+cd ..
+ls
+cd templates/
+ls
+cat home.html 
+cd ..
+cat users/admin.py 
+cat users/forms.py 
+cat pages/urls.py 
+cp templates/home.html templates/signup.html
+ls
+vim templates/signup.html 
+rm templates/signup.html 
+cat ../cyberhack2020/templates/home.html 
+cat ../cyberhack2020/templates/signup.html 
+cat ../cyberhack2020/templates/home.html 
+cat config/settings.py 
+ls
+cat config/urls.py 
+ls
+cat templates/home.html 
+ls
+free
+exit
+ls
+cd morgana/
+ln
+ls
+pipenv shell
+cd ..
+rm -rf morgana/
+git clone git@github.com:rococroc/morgana.git
+cd morgana/
+pipenv sync && pipenv shell
+cd ..
+rm -rf morgana/
+git clone git@github.com:rococroc/morgana.git
+cd morgana/
+pipenv sync && pipenv shell
+cd ..
+rm -rf morgana/
+git clone git@github.com:rococroc/morgana.git
+sudo su - postgres
+cd morgana/
+pipenv sync && pipenv shell
