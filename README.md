@@ -9,7 +9,11 @@ Django, Tensorflow.js , MobileNet, Web stack(HTML5/CSS3/JS), SQLite
 # Demos 
 ## On the edge image classifier for admin link:
 
+(https://hackhippoc.github.io/classifier/)
+
 ## User experience tour guide link:
+
+(https://hackhippoc.github.io/tourguide/)
 
 # How to install: 
 ## Backend
